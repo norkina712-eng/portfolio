@@ -5,8 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && node scripts/copy-404.mjs",
     "preview": "vite preview",
+    "print": "vite --open /print",
+    "export:print": "node scripts/export-print.mjs",
     "sync-data": "python ../portfolio/export_to_react.py"
   },
   "dependencies": {
@@ -16,6 +18,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.4",
+    "playwright": "^1.52.0",
     "vite": "^5.4.11"
   }
 }
