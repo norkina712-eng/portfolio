@@ -2,7 +2,7 @@
 
 Интерактивное портфолио digital-маркетолога на React + Vite.
 
-**Демо:** после деплоя — GitHub Pages (см. ниже)
+**Сайт:** https://norkina712-eng.github.io/portfolio/
 
 ## Запуск локально
 
@@ -18,20 +18,11 @@ npm run build
 npm run preview
 ```
 
-## Стек
+## Деплой
 
-- React 18, Vite, React Router
-- Тёмная тема, фильтры кейсов, страницы проектов с аккордеонами
-
-## Деплой на GitHub Pages
-
-Сайт: **https://norkina712-eng.github.io/portfolio/**
-
-При пуше в `main` деплой запускается автоматически (GitHub Actions).
+При пуше в `main` сайт собирается и публикуется на GitHub Pages автоматически.
 
 ---
-
-<!-- 🥚 -->
 
 <details>
 <summary>⋯</summary>
